@@ -20,7 +20,7 @@ module.exports =
             case 'firefox':
                   driver = new webdriver.Builder()
                     .forBrowser(setUp.browser)
-                    //.usingServer('http://localhost:4444/wd/hub')
+                    .usingServer('http://10.10.25.42:4444/wd/hub')
                     .build();
                 break;
             case 'chrome':
