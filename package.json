@@ -1,0 +1,29 @@
+{
+  "name": "remax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "spec/listingDetailsPage.spec.js"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "jasmine": "^2.6.0",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.2.1",
+    "phantomjs": "^2.1.7",
+    "selenium-standalone": "^6.5.0",
+    "selenium-webdriver": "^3.4.0"
+  },
+  "dependencies": {
+    "log4js": "^2.2.0",
+    "phantom-jasmine": "^0.3.0",
+    "selenium-grid": "^0.5.0"
+  }
+}

@@ -1,0 +1,193 @@
+{
+    "btnLogo":{"selectorType":"css","selector":"#site-head > div > figure > a"},
+
+    "stickyHeader":{"selectorType":"css","selector":"#js-home-page-sticky-header"},
+
+    "btnMyRemax":{"selectorType":"css","selector":"#js-user-acctmenu > div > a"},
+    "btnCreateAccount":{"selectorType":"css","selector":"#js-modal-body > div > div > h3 > a"},
+    "btnForgotPassword":{"selectorType":"css","selector":"#js-modal-body > div > fieldset > ol > li.fielditem.rememberme > a"},
+    "btnSignIn":{"selectorType":"css","selector":"#js-modal-body > div > fieldset > div.form-submit.login-form-fields-submit > button"},
+    "btnPrivacy":{"selectorType":"css","selector":"#js-modal-body > div > fieldset > small > a"},
+    "messageInvalidSearch":{"selectorType":"css","selector":"#js-modal-invalid-search"},
+    "messageInputMail":{"selectorType":"css","selector":"#js-modal-body > div > fieldset > ol > li.fielditem.email > span> span"},
+    "messageInputPassword":{"selectorType":"css","selector":"#js-modal-body > div > fieldset > ol > li.fielditem.password > span > span"},
+    "inputMail":{"selectorType":"css","selector":"#field-email"},
+    "inputPassword":{"selectorType":"css","selector":"#field-password"},
+    "userMenu":{"selectorType":"css","selector":"#js-user-acctmenu"},
+    "messageErrorLogin":{"selectorType":"css","selector":"#js-errormessage-login"},
+    "btnSendMePassword":{"selectorType":"css","selector":"#js-modal-body > fieldset > div.form-submit > button"},
+    "privacyPolicy":{"selectorType":"css","selector":"#page > div > h3"},
+    "btnCreateFreeAccount":{"selectorType":"css","selector":"#js-modal-body > div > fieldset > div.form-submit.register-form-fields-submit > button"},
+    
+    "propertyBlocks":{"selectorType":"css","selector":"#js-propertyblocks"},
+    "propertyBlocksTitles":{"selectorType":"css","selector":"#js-propertyblocks-inner > div.propertyblock-titles > div > div > article > header>a>h3"},
+                                                        
+    
+    "portalBlocksTitles":{"selectorType":"css","selector":"#page > div > div.verticals > section > div > h3"},
+
+    
+    "btnAgentsSearch":{"selectorType":"css","selector":"#page > div > section > div > div > footer > a"},
+
+    "btnSearchGlobal":{"selectorType":"css","selector":"#page > div > div.verticals > section.verticals-section.verticals-section--abroad > div > a"},
+    "btnSearchCommercial":{"selectorType":"css","selector":"#page > div > div.verticals > section.verticals-section.verticals-section--commercial > div > a"}, 
+    "btnSearchLuxury":{"selectorType":"css","selector":"#page > div > div.verticals > section.verticals-section.verticals-section--luxury > div > a"},   
+
+    "btnGetApp":{"selectorType":"css","selector":"#page > div > div.remaxinteractions > div.remaxinteractions-section.remaxapp > div.remaxapp-button > a"}, 
+    "btnAppStore":{"selectorType":"css","selector":"#page > div > div > div.remax-mobileapp-tertiary > span.remax-mobileapp-btnios > a"}, 
+    "btnGooglePlay":{"selectorType":"css","selector":"#page > div > div > div.remax-mobileapp-tertiary > span.remax-mobileapp-btnandr > a"}, 
+    "btnBlogExploreMoreArticles":{"selectorType":"css","selector":"#page > div > div.remaxinteractions > div.remaxinteractions-section.remaxblog > div.remaxblog-button > a"}, 
+    "btnBlogArticles":{"selectorType":"css","selector":"#js-rssblog > ul > li:nth-child(1) > p.remaxblog-content-slider-list-readmore > a"}, 
+    "titleBlogArticles":{"selectorType":"css","selector":"#js-rssblog > ul > li:nth-child(1) > p.remaxblog-content-slider-list-blogtitle"}, 
+                                                            
+    "headArticle":{"selectorType":"css","selector":"#col-center > div.widget__body.sm-mt-1 > div > h1"},
+    "linksWorldContentFooter":{"selectorType":"css","selector":"#remax-footer-links > div > div.footerset-one > div.grid-row.grid-padding.site-world > ul > li > a"},
+    "linksRemaxContentFooter":{"selectorType":"css","selector":"#remax-footer-links > div > div.footerset-one > div.grid-row.grid-padding.site-corporate > ul > li > a"},
+    "linksBusinessContentFooter":{"selectorType":"css","selector":"#remax-footer-links > div > div.footerset-two > div.grid-row.grid-padding.site-business > ul > li > a"},
+    "linksInvestorContentFooter":{"selectorType":"css","selector":"#remax-footer-links > div > div.footerset-two > div.grid-row.grid-padding.site-investor > ul > li > a"},
+    "linksOthersContentFooter":{"selectorType":"css","selector":"#remax-footer-links > div > div.footerset-three > div.grid-row.grid-padding.site-others > ul > li > a"},
+    "linksSupportsContentFooter":{"selectorType":"css","selector":"#remax-footer-links > div > div.footerset-three > div.grid-row.grid-padding.site-supports > section > a"},
+    
+    "linksFooter":{"selectorType":"css","selector":"#global-sitemap-footer > ul > li > a"},
+    
+  
+    "btnLetsGo":{"selectorType":"css","selector":"#fs_submit"},
+    "searchType":{"selectorType":"className","selector":"landing-link"},
+    "linkForSale":{"selectorType":"css","selector":"li.landing-tab:nth-child(1) > a:nth-child(1)"},
+    "linksPropertySearch":{"selectorType":"css","selector":"li.landing-tab > a:nth-child(1)"},
+    
+    "inputForSale":{"selectorType":"css","selector":"#js-hpsearch-search"},
+    "linkHomeEstimates":{"selectorType":"css","selector":"li.landing-tab:nth-child(2) > a:nth-child(1)"},
+    "inputHomeEstimates":{"selectorType":"id","selector":"js-location"},
+    "linkAgents":{"selectorType":"css","selector":"li.landing-tab:nth-child(3) > a:nth-child(1)"},
+    "inputAgents":{"selectorType":"css","selector":"#js-txtagentlocation"},
+    "linkOffices":{"selectorType":"css","selector":"li.landing-tab:nth-child(4) > a:nth-child(1)"},
+    "inputOffices":{"selectorType":"css","selector":"#js-txtofficelocation"},
+
+    "autocompleteItem":{"selectorType":"css","selector":"#js-autocomplete-js-hpsearch-search > table > tbody > tr:nth-child(1) > td > a"},
+    "autocompleteItemHomeEstimate":{"selectorType":"css","selector":"#js-autocomplete-js-location> table > tbody > tr:nth-child(1) > td > a"},
+    "autocompleteItemAgents":{"selectorType":"css","selector":"#js-autocomplete-js-txtagentlocation> table > tbody > tr:nth-child(1) > td > a"},
+    "autocompleteItemOffices":{"selectorType":"css","selector":"#js-autocomplete-js-txtofficelocation> table > tbody > tr:nth-child(1) > td > a"},
+                                                       
+    
+    "titleByCity":{"selectorType":"css","selector":"#js-homesforsale-city > div.fn-top-cities > h2"},
+    "linkByCity":{"selectorType":"css","selector":"#js-homesforsale-city > div.fn-top-cities > ol > li:nth-child(1) > a"},
+
+"__commentcheckLink": "element for test checkLink", 
+                                                    
+    "linkByCities":{"selectorType":"css","selector":"#js-homesforsale-city > div.fn-top-cities > ol > li > a"},
+    "linkByState":{"selectorType":"css","selector":"#js-homesforsale-state > div.fn-top-states > ol > li > a"},
+    "linkByZipCode":{"selectorType":"css","selector":" #js-homesforsale-zip > div.fn-top-zips > ol > li > a"},
+    "linkByCounty":{"selectorType":"css","selector":"#js-homesforsale-county > div.fn-top-counties > ol > li > a"},
+                                                        
+"__commentcheckMoreLink": "element for test checkMoreLink",    
+    "btnMoreCities":{"selectorType":"css","selector":".fn-more-cities > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)"},
+    "linkMoreCities":{"selectorType":"css","selector":"#js-homesforsale-city > div.dropdown.fn-more-cities.open > div > ol > li > a"},
+
+    "btnAllStates":{"selectorType":"css","selector":".fn-more-states > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)"},
+    "linkAllStates":{"selectorType":"css","selector":"#js-homesforsale-state > div.dropdown.fn-more-states.open > div > ol > li > a"},
+
+    "btnTopZipCodes":{"selectorType":"css","selector":".fn-more-zips > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)"},
+    "linkTopZipCodes":{"selectorType":"css","selector":"#js-homesforsale-zip > div.dropdown.fn-more-zips.open > div > ol > li > a"},
+
+    "btnTopCounties":{"selectorType":"css","selector":".fn-more-counties > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)"},
+    "linkTopCounties":{"selectorType":"css","selector":"#js-homesforsale-county > div.dropdown.fn-more-counties.open > div > ol > li > a"},
+
+"__commentcheckElementByCity": "element for test checkElementByCity",    
+    "resultsBreadcrumb":{"selectorType":"css","selector":"#results-detail-breadcrumb"},
+    "totalProperties":{"selectorType":"css","selector":" #js-results-order > div > div.results-sourcename.sort-text"},
+    "itemPerPages":{"selectorType":"css","selector":"#js-results-order > div > div.property-listing-options > p > a.js-items-per-pages.title-55.pages-option.showpghighlight"},
+                                                  
+    "btnpages":{"selectorType":"css","selector":"li.pages-item > a:nth-child(1)"},
+    "itemInLastPage":{"selectorType":"css","selector":"li.results-item--listing"},
+
+    "titleInSearch":{"selectorType":"css","selector":"#H2"},
+    "titleInHomeEstimate":{"selectorType":"css","selector":"#js-header-location-text"},
+    "titleInAgents":{"selectorType":"css","selector":"#page > div > section > div.js-search-agentcount > div > div.agent-search-location.title-57"},
+    "titleInOffices":{"selectorType":"css","selector":"#js-office-search-location"},
+    
+"__commentSocialMediaElements": "element for test social media",      
+    "btnSocialMedia":{"selectorType":"css","selector":"#media-footer-links > div > ul > li > a"},
+    "btnSave":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--save > a"},
+    "btnAlerts":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--alerts > a"},
+    "btnViewGallery":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--gallery.js-tabs-fake.js-viewgallery"},
+    "btnViewMap":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--map.js-tabs-fake.js-viewonmap"},
+    "btnMoreListing":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--more-listings.js-morelistings"},
+    "btnAsk":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--ask"},
+    
+    "resultViewMap":{"selectorType":"css","selector":"#js-map-listings > li"},
+    "resultViewGallery":{"selectorType":"css","selector":"#js-listview > li"},
+    "resultAsk":{"selectorType":"css","selector":"#js-contactofficemodal"},
+    "resultMoreListing":{"selectorType":"css","selector":"#js-modal-mlsselector"},
+    "btnFilterMoreOptions":{"selectorType":"css","selector":"#js-switch-visible-options > button.mapheader-button.mapheader-button--filter"},
+    "btnApplyFilters":{"selectorType":"css","selector":"#js-apply-filters"},
+   
+    "formRegister":{"selectorType":"css","selector":"#js-modal-body"},
+    "myRemaxLoggedin":{"selectorType":"css","selector":"#js-user-acctmenu > div > nav > ul > li:nth-child(1) > a"},
+    "myRemaxBtns":{"selectorType":"css","selector":"#js-user-acctmenu > div > div"},
+    "btnSavedSearches":{"selectorType":"css","selector":"#js-show-saved-searches"},
+    "btnConfirmBlue":{"selectorType":"css","selector":"#js-modal-body > fieldset > div > button.js-sl-setbtn.btn.btn-small-blue"},
+    
+    "btnCloseSavedSearches":{"selectorType":"css","selector":"#js-modal-close"},
+    "btnRemoveSavedSearches":{"selectorType":"css","selector":"#js-savedsearches > ul > li> article > div.myremax-savedsearches-secondary > ul > li:nth-child(3) > a"},
+    "savedSearchesDetails":{"selectorType":"css","selector":"#js-savedsearches > ul > li > article > div.myremax-savedsearches-primary > header > div.myremax-savedsearches-details"},
+    "propertyTiles":{"selectorType":"css","selector":"#js-map-listings > li:nth-child(1)"},
+    "newProperty":{"selectorType":"css","selector":"#js-map-listings > li.js-mapcard-collapse_items.srp-mapcard--items.results-content-listing.results-list-item.listing-card-body.js-map-list-item.active > article > span > div.js-mapcard-collapse_pane.srp-mapcard-pane.map-listing-pane-details > a > div.listing-pane-details-header > div > span"},
+    "disclaimerText":{"selectorType":"css","selector":"#js-disclaimer-all"},
+    "blockDetailAddress":{"selectorType":"css","selector":"#js-map-listings > li.js-mapcard-collapse_items.srp-mapcard--items.results-content-listing.results-list-item.listing-card-body.js-map-list-item.active > article > span > div.js-mapcard-collapse_pane.srp-mapcard-pane.map-listing-pane-details > a > div:nth-child(2) > h2 > span"},
+    
+    "listingDetailAddress":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > h1 > div"},
+    "officeBranding":{"selectorType":"css","selector":"#site-head > div > figure > h3 > span"},
+    "officeDisclaimer":{"selectorType":"css","selector":"#js-breadcrumbs > li.breadcrumbitem.breadcrumbitem--disclaimer > span"},
+    "courtesyOf":{"selectorType":"css","selector":"#js-listview > li > article > span > div.listing-pane-details > footer > small > span"},
+    "officeInformation":{"selectorType":"css","selector":"#js-disclaimers > div > div"},
+
+    
+
+    "inputLocation":{"selectorType":"css","selector":"#location"},
+    "inputMinPrice":{"selectorType":"css","selector":"#js-minprice"},
+    "inputMaxPrice":{"selectorType":"css","selector":"#js-maxprice"},
+    "selectBeds":{"selectorType":"css","selector":"#bedrooms"},
+    "selectBaths":{"selectorType":"css","selector":"#bathrooms"},
+    "selectSquareFeet":{"selectorType":"css","selector":"#sqftval"},
+    "selectLotSize":{"selectorType":"css","selector":"#lotsizeval"},
+    "selectAgeOfHome":{"selectorType":"css","selector":"#ageofhomeval"},
+    "listingType":{"selectorType":"css","selector":"#eladvancedsearch-main > div > div.advpropsearch-secondary > div.advpropsearch-listingtype > ul > li"},
+    "propertyType":{"selectorType":"css","selector":"#eladvancedsearch-main > div > div.advpropsearch-secondary > div.advpropsearch-propertytype.grid-unit.margin-lead-bottom > fieldset > div > ul > li"},
+   
+    "btnViewHomes":{"selectorType":"css","selector":"#js-adv-search-submit"},
+    "propertyLocation":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > h1 > div > span.listing-detail-address-2.title-1"},
+    "propertyPrice":{"selectorType":"css","selector":"#js-detail-mapview > header.page-head.listing-detail-head-map > div.inline-unit.propertyinfo-wrapper > div.inline-row-nospace.price-wrapper > div > dl > dd > span"},
+    
+    "propertyListingType":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > div.forsalelistingdetail > dl.forsalelisting-detail-stats-main > div:nth-child(1) > dd"},
+    "propertyBeds":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > div.forsalelistingdetail > dl.forsalelisting-detail-stats-main > div:nth-child(3) > dd"},
+    "propertyBaths":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > div.forsalelistingdetail > dl.forsalelisting-detail-stats-main > div:nth-child(4) > dd"},
+    "propertyHouseSize":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > div.forsalelistingdetail > dl.forsalelisting-detail-stats-main > div:nth-child(5) > dd"},
+    "propertyYearBuilt":{"selectorType":"css","selector":"#js-property-details > div.property-details-body.fullwidth-content-container.clearfix > div.forsalelistingdetail > dl.forsalelisting-detail-stats-main > div:nth-child(7) > dd"}
+    ,
+    "modalProperty":{"selectorType":"css","selector":"#js-modal-body"},
+    "propertyMapListings":{"selectorType":"css","selector":"#js-map-listings>li"},
+    "propertyNotSave":{"selectorType":"css","selector":"#js-map-listings > li.js-map-list-item.myremaxresults-listcards-collapse.myremaxresults-listcards.myremax-items > article > div > div.myremax-property-details > div.myremaxlistingcard-desc > dl > dd > span"},
+    "propertyNotSave1":{"selectorType":"css","selector":"#js-map-listings > li.js-map-list-item.myremaxresults-listcards.myremax-items> article > div > div.myremax-property-details > div.myremaxlistingcard-desc > dl > dd > span"},
+    "propertyForSale":{"selectorType":"css","selector":"#js-map-listings>li>article>div>div:nth-child(1)>div:nth-child(1)>div>span.listing-status-forsale"},
+
+   
+    "btnPlaces":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--places"},
+    "btnShare":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.share.share-listing"},
+    "btnHide":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.headerbtns--hide"},
+    "shareItems":{"selectorType":"css","selector":"#js-topbar > div > ul > li.headerbtns.share.share-listing > div > span > div > ul > li"},
+    "btnPhotos":{"selectorType":"css","selector":"#js-tab-navigation > ul > li.js-ui.js-tabs-nav.js-search-tabs-photos.photo-tab"},
+    "btnMapInrix":{"selectorType":"css","selector":"#js-tab-navigation > ul > li.js-ui.js-tabs-nav.js-search-tabs-map.inrix-tab"},
+    "contactForm":{"selectorType":"css","selector":"#js-reqmoreinfo"},
+    "filmstrim":{"selectorType":"css","selector":"#js-carousel > div.js-thumb-wrap.thumbnails.image-thumb-wrap > ul > li:nth-child(1)"},
+    "propertyInfo":{"selectorType":"css","selector":"#js-carousel-image > div > div.gallery--slide.active > header > div.inline-unit.propertyinfo-wrapper"}
+    
+    
+   
+    
+    
+    
+    
+    
+   
+  
+}
