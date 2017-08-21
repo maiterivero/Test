@@ -10,8 +10,7 @@ describe('Test  My RE/MAX Log in', function()
 {
     // Open the website in the browser before each test is run
     beforeEach(function(done) 
-    {  
-        console.log('---------------------Test---------------------');           
+    {               
         controller.getUrl(setUp.url).then(done); 
     }) 
 
