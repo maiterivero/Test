@@ -1,6 +1,6 @@
 {
-    "browser2":"chrome", 
-    "browser":"firefox", 
+    "browser":"chrome", 
+    "browser1":"firefox", 
     "url":"http://quantro.enqa-remax.com/",
     "urlAdvancedSearch":"http://quantro.enqa-remax.com/advancedsearch/",
     
