@@ -44,7 +44,7 @@ module.exports = {
         {
             fs.writeFile('report/screenShot/img'+  module.exports.getSpecImg() +'.png', image, 'base64', function(err) 
             {
-                console.log(err);
+                //console.log(err);
             })
         });
         log4js.configure({
