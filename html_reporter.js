@@ -6,18 +6,18 @@ var fs     = require('fs'),
    // hat    = require('hat');
 var suiteNumber=0;
 //require('string.prototype.startswith');
-// (function(global) {
-    // var UNDEFINED, exportObject= exports, reportDate;
+(function(global) {
+    var UNDEFINED, exportObject= exports, reportDate;
 
-    // if (typeof module !== "undefined" && module.exports) {
-        // exportObject = exports;
-    // } else {
-        // exportObject = global.jasmineReporters = global.jasmineReporters || {};
-    // }
-	// function sanitizeFilename(name){
-    // name = name.replace(/\s+/gi, '-'); // Replace white space with dash
-    // return name.replace(/[^a-zA-Z0-9\-]/gi, ''); // Strip any special charactere
-// }
+    if (typeof module !== "undefined" && module.exports) {
+        exportObject = exports;
+    } else {
+        exportObject = global.jasmineReporters = global.jasmineReporters || {};
+    }
+	function sanitizeFilename(name){
+    name = name.replace(/\s+/gi, '-'); // Replace white space with dash
+    return name.replace(/[^a-zA-Z0-9\-]/gi, ''); // Strip any special charactere
+}
 	
     function trim(str) { return str.replace(/^\s+/, "" ).replace(/\s+$/, "" ); }
     function elapsed(start, end) { return (end - start)/1000; }
@@ -100,8 +100,7 @@ var suiteNumber=0;
      *
      * jasmine.getEnv().addReporter(new jasmineReporters.HTMLReporter());
      */
-    //exportObject.HTMLReporter = function(options) {
-	exports.HTMLReporter = {
+    exportObject.HTMLReporter = function(options) {
          var self = this;
 	//var driver = options.driver;
     self.started = false;
@@ -519,5 +518,6 @@ var suiteNumber=0;
         }
 }
 
-// })(this);
+})(this);
 /******************************************************///////////////
+
